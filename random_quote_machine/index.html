@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Quote Gen</title>
+        <meta name="author" content="Matija Osrečki">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="app">
+            <div id="quote-box">
+                <div id="text">
+                    <span id="quotation-mark">
+                        <i class='bx bxs-quote-left'></i>
+                    </span>
+                </div>
+                <div id="author">
+                </div>
+                <div class="options">
+                    <section class="share">
+                        <button class="btn">
+                            <a href="twitter.com/intent/tweet" class="share-link" id='tweet-quote'>
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                        </button>
+                        <button class="btn">
+                            <a href="#" class="share-link">
+                                <i class='bx bxl-tumblr'></i>
+                            </a>
+                        </button>
+                    </section>
+                    <button class="btn" id="new-quote">New quote</button>
+                </div>
+            </div>
+            <div class="me">by <a href="https://github.com/Mat2ja" target='_blank'>Matija Osrečki</a></div>
+        </div>
+
+        <script src="js/tinycolor.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
